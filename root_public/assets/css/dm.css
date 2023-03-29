@@ -1,0 +1,174 @@
+#mid_container_mid {
+    display: flex;
+    flex-direction: column;
+    height: 71vh;
+    padding-bottom: 3em;
+}
+
+.container_message{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0; margin-bottom: 20px; text-align: initial; height: 100%;
+}
+
+.mid_content p, .mid_content ul, .mid_content li, .mid_content pre, .mid_content h1, .mid_content h2 {
+    color: rgb(233, 233, 233);
+    white-space: normal;
+}
+
+.border {
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: rgb(59, 61, 63);
+    border: solid rgb(209, 176, 115);
+}
+
+.info_containt_border{
+    border-radius: 15px; 
+    padding: 10px 10px;
+}
+
+.post_auteur {
+    color: white; 
+    font-size: 32px
+}
+
+.pofile_container_dm{
+    display: grid;
+    grid-template-columns: 64px auto;
+    grid-template-rows: 64px;
+    -ms-grid-columns: 64px auto;
+    -ms-grid-rows: 64px;
+    grid-gap: 10px 20px;
+    gap: 10px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-areas:"profile_img_posts info_containt"
+}
+
+.all_message_container{
+    margin: 20px 20px;
+    border-radius: 15px;
+    padding: 10px 20px 0;
+    height: 100%;
+
+    color:whitesmoke !important;
+
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.send_container{
+    display: grid;
+    grid-template-columns: auto 32px;
+    grid-template-rows: auto;
+    -ms-grid-columns: auto 32px;
+    -ms-grid-rows: auto;
+    grid-gap: 0px 20px;
+    gap: 0px 20px;
+    margin: auto 20px 0;
+    grid-template-areas:
+    "msg_send_content btn_send";
+    border-radius: 15px;
+    bottom: 0px;
+    flex-shrink: 1;
+}
+
+.btn_send{
+    grid-area: btn_send;
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    padding: 0 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#msg_send_content{
+    border-radius: 15px;
+    background: #3B3D3F;
+    box-shadow: inset 5px 5px 10px #333436,
+    inset -5px -5px 10px #434648;
+    padding: 20px 20px;
+    border: solid rgb(209, 176, 115);
+    color: white;
+    outline: none;
+    width: 100%;
+    resize: none;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    grid-area: msg_send_content;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.message_container{
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: auto;
+    -ms-grid-columns: 100px auto;
+    -ms-grid-rows: auto;
+    grid-gap: 0px 20px;
+    gap: 0px 20px;
+    grid-template-areas:
+    "date message";
+}
+
+/* Pour un bon affichage sur Internet Explorer */
+@media all and (-ms-high-contrast:none) {
+
+    .pofile_container_dm {
+        display: -ms-grid;
+        -ms-grid-columns: 64px auto;
+        -ms-grid-rows: 64px;
+        gap: 10px 20px;
+    }
+
+    .send_container {
+        display: -ms-grid;
+        -ms-grid-columns: auto 32px;
+        -ms-grid-rows: auto;
+        gap: 0px 20px;
+    }
+
+    .message_container {
+        display: -ms-grid;
+        -ms-grid-columns: 100px auto;
+        -ms-grid-rows: auto;
+        gap: 0px 20px;
+    }
+
+}
+
+.message_container p {
+    margin-top: 0;
+}
+
+.date{
+    grid-area: date;
+    text-align: center;
+}
+
+.message{
+    grid-area: message;
+}
+
+#msg_send_content::-webkit-scrollbar,.all_message_container::-webkit-scrollbar {
+    display: none;
+}
+
+#msg_send_content::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+#msg_send_content:-ms-input-placeholder{
+    color: white;
+}
+
+#msg_send_content::-ms-input-placeholder{
+    color: white;
+}

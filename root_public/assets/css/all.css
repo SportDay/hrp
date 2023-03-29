@@ -1,0 +1,271 @@
+/*------------ PRINCIPAL ------------*/
+
+*{
+    text-decoration: none;
+    word-break: break-all;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4e4e4e;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.mail_title{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.copy_title{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.mail_contact{
+    text-decoration: none;
+    color: black;
+
+}
+
+body{
+    background-color: #14141a;
+    -ms-overflow-style: none;
+    margin:0%;
+    height:100%;
+}
+
+#up_panel{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0;
+    position: fixed;
+    min-width: 800px;
+    
+    text-align: center;
+    height: 90px;
+    
+    background-color: #ffc38a;
+    box-shadow: 0px 5px 26px rgba(19, 19, 19, 0.712);
+
+    z-index: 4;
+}
+
+#up_panel p, #up_panel h1, #up_panel h2, #up_panel pre {
+    color:rgb(27, 28, 29);
+    font-family: Sans-serif	;
+    white-space: normal;
+}
+
+.border{
+    padding: 20px 20px;
+    border-radius: 5px;
+    background-color:rgb(59, 61, 63);
+    border: solid rgb(209, 176, 115);
+}
+
+#mid_content{
+    text-align: center;
+
+    margin: 20px auto;
+
+    width: 80%;
+    min-width: 730px;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+    /*-------------------------------*/
+
+    border-radius: 5px;
+    background-color:rgb(59, 61, 63);
+    border: solid rgb(209, 176, 115);
+}
+
+.mid_content{
+    text-align: center;
+
+    margin: 20px auto;
+
+    width: 80%;
+    min-width: 730px;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    /*-------------------------------*/
+
+    border-radius: 5px;
+    background-color:rgb(59, 61, 63);
+    border: solid rgb(209, 176, 115);
+}
+
+#mid_content p, #mid_content ul, #mid_content li, #mid_content pre, #mid_content h1, #mid_content h2{
+    color:rgb(241, 210, 163);
+    white-space: normal;
+}
+
+.mid_sub_content {
+    text-align: center;
+
+    margin: 20px auto;
+
+    width: 80%;
+    min-width: 500px;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+    /*-------------------------------*/
+
+    border-radius: 5px;
+    background-color:rgb(59, 61, 63);
+    border: solid rgb(209, 176, 115);
+}
+
+.mid_content p, .mid_content ul, .mid_content li, .mid_content pre, .mid_content h1, .mid_content h2{
+    color:rgb(241, 210, 163);
+    white-space: normal;
+}
+
+#mid_panel{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  /*  margin: 7em auto 1em; */
+}
+
+#mid_container{
+    flex: 1 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center; 
+    padding-top: 8em;
+}
+#down_panel {
+    background-color: #ffc38a;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    flex-shrink: 0;
+    margin-top: auto;
+    margin-bottom: 0;
+
+    text-align: center;
+}
+
+#down_panel p, #down_panel pre, #down_panel h1, #down_panel h5{
+    color:rgb(10, 10, 10);
+    white-space: normal;
+}
+
+.btn_button_btn{
+    width: auto;
+    border: solid transparent;
+    border-radius: 5px;
+    background-color: #FFC38A;
+    color: black;
+    cursor: pointer;
+}
+
+/*--------------- SECONDAIRE -------------*/
+
+.containers_three_left_00 {
+    text-align: left;
+    float:left; 
+    /*background:Red;*/
+    width:30%;
+}
+.containers_three_mid_00 {
+    float:left; 
+    /*background:Green;*/
+    width:40%;
+}
+.containers_three_right_00 {
+    float:right;
+    /*background:blue;*/
+    width:30%;
+}
+
+
+/*----------- SPECIFIQUE ---------------*/
+
+.search_input, .search_input:-webkit-autofill{
+    height: 40px;
+    border-radius: 20px;
+    background: #3B3D3F;
+    box-shadow: inset 5px 5px 10px #333436,
+    inset -5px -5px 10px #434648;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: solid rgb(209, 176, 115);
+    color: white;
+    width: 80%;
+    min-width: 730px;
+    padding: 1em 5px 1em 20px;
+}
+
+.search_input::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.search_input:-ms-input-placeholder{
+    color: white;
+}
+
+.search_input::-ms-input-placeholder{
+    color: white;
+}
+
+
+.search_input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 22px;
+    width: 22px;
+    display: block;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAADlUlEQVRYhe2WS2wbVRSGvzMzTitV6YqmcR4SlC66CBvKxsmkQlRs6nFcq+yyQd014iHR16oo7GgFAiSIEAtWsCrEzcONQCqqiGs2PBZEgk2pkJOM611bqgZn5h4WdiJnPImTwI78qyufc8//zcy5vgf29H+X7CR5KXui3wrDLCJplKeB/kaoDNwDCmHoTPXN3V78TwHKXqo3IfbbqpwFnDbpBuFrDc3FnpulP/81QCU9NKIiXwCdQA0kL8qN0Da/2CsHFgHC/Y/7bJXnVSULmgM6gEcCo92zxZldA1TSw6+r6IeAhXBdsC53z3x/b6s999PuESN6DeQMYEDfTM7e+XjHAI0nzwOqIhd7ZuY/2Mo4Kj/tnke4CojA6c3eRCxA2Uv1Oti/AZ0q8tZOzSMQ7wEPnVU5duibeT+aY8VttNV+B+hEuL5bc4Bkofg+wiRwMOzQ8bicFoCl7Il+EV4FaoJ1ORr308PnKrnBrujvldxgl58ePtdiEJhLQE2Vs2Uv1dsWwArDLGCD5KMN52fcMUQndNW61QxRyQ126ap1C9EJP+OONe85PFe6izAFOI7Y2bYAIKcARHSqJeKYr4AFYGANYt0cBoCFRs4Gqa7XOrUNAJ4FCEJ+iga686WqJMzJZogN5glzsjtfqrYAWPxYX9RrtwPoAeg44CzHxOjOl6qE8hLCrw3jAeB32zgvx5kDJPYllhrLvu0AaFyRdpIw3PQ/xf7ryZqP2Q6AD1B7HPTEFavkBruw9TuU56h/igXgWJDQb+NOB8BKwkk2li1vNQ7gLoBjczzOPPrNoz0RByGGF+qLeu12AAWA+sWyURpYrxBpuJbGrOdsBJBGLSOFtgBh6EwBAWjufto90hxLzhQnUBmLdvs6hMpYcqY40bynOpI6ipIFgkCC6ZgHblXFcz/zPVd9b6jlTO9UFc+d9D1XK2n307h4/F1g6TjwCOSMn3bP79bczwxdUMghPLDU2d5dAHBo+s6ywCj16ebqbiD8zNAFVN4FDEZGu27ersTlbTmQ+N7QayAfUR9IJq3AXDo8V2rp5GZVR1JHjbGvKeSon/s3krPFTzbLbz+SZVxPlS+Bg0ANYUrghiH82dm/bxEgWPm7D7WOC3IaIYuSQHiAkdFkYb6l83cEALCcefEpNLgiMEb7oTQQ4XO7JuNxA8iuANZU9lK9jjojCB7oMzSP5cIfGCkEEkz3z/6wtFWdPe2pWf8AOF16TFi6xPgAAAAASUVORK5CYII=");
+    background-repeat: no-repeat;
+    background-size: 22px;
+}
+
+.search_input:focus{
+    outline: none;
+    border: solid rgb(209, 115, 115);
+}
+
+#page_logo {
+    padding-left:10px;
+    padding-top:5px;   
+}
+
+.image_001 img{
+    border: 5px solid rgb(10, 10, 10);
+}
+
+.centered_ul {
+    align-content: center;
+    text-align: left;
+
+    width: 40%;
+    min-width: 300px;
+    margin: auto;
+
+    /* background-color:red; */
+}

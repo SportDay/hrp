@@ -1,0 +1,44 @@
+{
+    "init_database_enabled" : true,
+
+    "nBots"             : 20,
+    "addBotFriends"     : true,
+    "addPageLikes"      : true,
+    "addBotMessages"    : true,
+    "botPassword"       : "BotPassword",
+
+    "addFriends" : true,
+    "users":[
+        {
+            "username"      : "root",
+            "password"      : "Vanille1",
+            "admin"         : true,
+            "enable_public" : false
+        },{
+            "username"      : "Carl",
+            "password"      : "Vanille2",
+            "admin"         : true,
+            "enable_public" : true
+        },{
+            "username"      : "SportDay",
+            "password"      : "Vanille3",
+            "admin"         : true,
+            "enable_public" : true
+        },{
+            "username"      : "Wilfrid",
+            "password"      : "Password",
+            "admin"         : false,
+            "enable_public" : true
+        },{
+            "username"      : "Leila",
+            "password"      : "Password",
+            "admin"         : true,
+            "enable_public" : true
+        },{
+            "username"      : "Fred",
+            "password"      : "Password",
+            "admin"         : false,
+            "enable_public" : false
+        }
+    ]
+}

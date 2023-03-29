@@ -1,0 +1,54 @@
+{
+    "roles" : [
+        {
+            "name"      : "Harry Potter",
+            "specie"    : "Sorcier",
+            "class"     : "Eleve",
+            "title"     : "Gryffondor",
+
+            "image_num" : 0
+        },{
+            "name"      : "Hermione Granger",
+            "specie"    : "Sorcier",
+            "class"     : "Eleve",
+            "title"     : "Gryffondor",
+
+            "image_num" : 1
+        },{
+            "name"      : "Hermione Granger",
+            "specie"    : "Sorcier/Moldu",
+            "class"     : "Eleve",
+            "title"     : "Gryffondor",
+
+            "image_num" : 2
+        },{
+            "name"      : "Drago Malefoy",
+            "specie"    : "Sorcier",
+            "class"     : "Eleve",
+            "title"     : "Serpentard",
+
+            "image_num" : 3
+        },{
+            "name"      : "Neville Londubat",
+            "specie"    : "Sorcier",
+            "class"     : "Eleve",
+            "title"     : "Gryffondor",
+
+            "image_num" : 4
+        },{
+            "name"      : "Luna Lovegood",
+            "specie"    : "Sorcier/Moldu",
+            "class"     : "Eleve",
+            "title"     : "Serdaigle",
+
+            "image_num" : 5
+        },{
+            "name"      : "Albus Dumbledore",
+            "specie"    : "Sorcier",
+            "class"     : "Directeur/Professeur",
+            "title"     : "Gryffondor",
+
+            "image_num" : 6
+        }
+    ]
+}

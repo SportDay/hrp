@@ -1,0 +1,1 @@
+L'ensemble des fonctions qui peuvent être appellés par requete xmlhttp (ajax).

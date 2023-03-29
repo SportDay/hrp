@@ -1,0 +1,20 @@
+ErrorDocument 400 /page/public/error.php
+ErrorDocument 401 /page/public/error.php
+ErrorDocument 402 /page/public/error.php
+ErrorDocument 403 /page/public/error.php
+ErrorDocument 404 /page/public/error.php
+ErrorDocument 405 /page/public/error.php
+ErrorDocument 406 /page/public/error.php
+ErrorDocument 407 /page/public/error.php
+ErrorDocument 408 /page/public/error.php
+ErrorDocument 409 /page/public/error.php
+ErrorDocument 410 /page/public/error.php
+ErrorDocument 411 /page/public/error.php
+ErrorDocument 412 /page/public/error.php
+ErrorDocument 413 /page/public/error.php
+ErrorDocument 414 /page/public/error.php
+ErrorDocument 415 /page/public/error.php
+ErrorDocument 416 /page/public/error.php
+ErrorDocument 417 /page/public/error.php
+
+Options -Indexes

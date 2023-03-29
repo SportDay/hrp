@@ -1,0 +1,111 @@
+/* ------ MENU STYLE -------- */
+
+.menu_close {
+    float: right;
+    padding: 10px 5px;
+
+    margin-top  : 2px;
+    margin-right: 20px;
+
+    min-width: 220px;
+
+    /*border-style: solid;*/
+    border: solid rgba(59, 61, 63, 0);
+    border-radius: 5px;
+}
+.menu_open {
+    float: right;
+    padding: 10px 5px;
+
+    margin-top  : 2px;
+    margin-right: 20px;
+
+    min-width: 220px;
+
+    /*border-style: solid;*/
+    background-color: #ffc38a;
+    border: solid rgb(59, 61, 63);
+    border-radius: 5px;
+}
+
+/* ----- MENU ELEMENTS ----- */
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#menu_contain_button {
+    padding:10px;
+}
+
+#open_menu {
+    border: rgb(59, 61, 63);
+    border-radius: 3px;
+    padding: 0px;
+}
+
+.menu_button {
+    background-color: #505357;
+    color: rgb(230, 203, 152);
+    padding: 10px 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    width: 100%;
+    border: solid transparent;
+    border-radius: 5px;
+
+    font-size: 12px;
+    min-width: 220px;
+}
+
+#btn_disconnect {
+    background-color: rgb(121, 49, 49);
+}
+#btn_admin {
+    background-color: rgb(121, 49, 49);
+}
+
+/* ----------------------------- */
+
+.popup_form_title {
+    font-size: 20px;
+    color: rgb(238, 236, 228);
+}
+
+.popup_text {
+    color: rgb(250, 225, 173) !important;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+
+.login_right_button {
+    float: right;
+    margin-right: 4px;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: white;
+}
+
+::-ms-input-placeholder {
+    color: white;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}

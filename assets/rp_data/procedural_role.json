@@ -1,0 +1,30 @@
+{
+    "public_name" : {
+        "FirstName":[
+            "Harry", "Hermione", "Ron", "Drago", "Neville", "Luna", 
+            "Rubeus", "Voldemort", "Bellatrix", "Lucius", "Sirius", "Lupin",
+            "Vernon", "Petunia", "Dudley", "Fleur", "Abraxas", "Brutus",
+            "Bartemius", "Alastor", "Remus", "Lyall"
+        ],
+        "LastName": [
+            "Potter", "Grandger", "Wisley", "Malfoy", "Dumbledore", "Flitwick",
+            "Chourave", "Hagrid", "Maugrey", "Shacklebolt", "Delacour", "Lovegood",
+            "Lestrange", "Lestrange", "Maugrey", "Lupin"
+        ]
+    },
+    "specie":[
+        { "name":"Sorcier", "images":[ [0,  32] ] },
+        { "name":"Moldu",   "images":[ [27, 35] ] },
+        { "name":"Esprit",  "images":[ [0,  35] ] },
+        { "name":"Elf",     "images":[ [36, 36] ] }
+    ],
+    "class": [
+        { "name":"Eleve",              "images":[ [0,  5]               ]},
+        { "name":"Professeur",         "images":[ [6,  14]              ]},
+        { "name":"Les Forces du Mal",  "images":[ [0,  35], [7, 8]      ]},
+        { "name":"L'ordre du Phénix",  "images":[ [15, 20]              ]},
+        { "name":"Autre",              "images":[ [27,  35], [5]        ]},
+        { "name":"Servant",            "images":[ [36, 36]              ]}
+    ],
+    "title": [ "Gryffondor", "Poufsouffle", "Serdaigle", "Serpentard" ]
+}

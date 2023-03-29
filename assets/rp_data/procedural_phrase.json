@@ -1,0 +1,35 @@
+{
+    "Default": [
+        "Poudlard est une vieille école"
+    ], "Eleve": [
+        "Leviosa!", 
+        "As tu fait le dm ?",
+        "Participeras-tu au match de Quidditch ?",
+        "Il y a un ogre dans les toilettes"
+    ], "Professeur": [
+        "Ouvrez vos cahiers",
+        "Allez dans le bureau de monsieur Dumbledore",
+        "Préparez un élyxir de vieillesse pour la prochaine fois!"
+    ], "Les Forces du Mal" : [
+        "Meurt!", 
+        "Souffre!", 
+        "Sang impure!",
+        "Il faut éradiquer Harry Potter"
+    ], "L'ordre du Phénix" : [
+        "Vite il faut se cacher!",
+        "Notre monde court un grave danger",
+        "La liberté triomphera!",
+        "Nous feront tomber celui dont on ne dois pas proncer le nom"
+    ], "Autre" : [
+        "J'ai entendu du bruit la nuit dernière.",
+        "Il se passe des choses étranges",
+        "On ne nous dit pas tout",
+        "J'ai vu un bus se compresser pour passer entre 2 voitures.",
+        "Je ne suis pas fou"
+    ], "Servant" : [
+        "Oui maître.", 
+        "Avez vous besoin d'aide?",
+        "Vos désires sont des ordres", 
+        "*chuchote* Je pense à me rebeler"
+    ]
+}

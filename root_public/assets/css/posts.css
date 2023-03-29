@@ -1,0 +1,245 @@
+.post_add::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.post_add:-ms-input-placeholder{
+    color: white;
+}
+
+.post_add::-ms-input-placeholder{
+    color: white;
+}
+
+#container_add{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.desc_container{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.post_add{
+    border-radius: 15px;
+    background: #3B3D3F;
+    box-shadow: inset 5px 5px 10px #333436,
+    inset -5px -5px 10px #434648;
+    padding: 20px 20px;
+    border: solid rgb(209, 176, 115);
+    color: white;
+    outline: none;
+    width: 100%;
+    resize: none;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.post_add::-webkit-scrollbar {
+    display: none;
+}
+
+.submit_add, #inspirate{
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+    height: 30px;
+    background-color: #FFC38A;
+    color: black;
+    cursor: pointer;
+    border: solid transparent;
+    border-radius: 5px;
+}
+
+.btn_sup_post{
+    width: 100px;
+    height: 30px;
+    background-color: #FFC38A;
+    color: black;
+    cursor: pointer;
+    border: solid transparent;
+    border-radius: 5px;
+}
+
+.submit_add:hover, #inspirate:hover{
+    opacity: 0.9;
+}
+
+.posts{
+    display: grid;
+    grid-template-columns: 64px auto 32px;
+    grid-template-rows: 64px auto 32px;
+    -ms-grid-columns: 64px auto 32px;
+    -ms-grid-rows: 64px auto 32px;
+    grid-gap: 10px 20px;;
+    gap: 10px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-areas:
+    "profile_img_posts info_containt info_containt"
+    "post_content post_content post_content"
+    "btn_like post_btn_espace btn_report";
+}
+
+.info_containt{
+    display: grid;
+    grid-template-columns: auto auto 32px;
+    grid-template-rows: auto;
+    -ms-grid-columns: auto auto 32px;
+    -ms-grid-rows: auto;
+    grid-gap: 0px 0px;
+    gap: 0px 0px;
+    grid-template-areas:
+    ". . post_menu";
+    grid-area: info_containt;
+}
+
+.profile_img_posts{
+    border-radius: 15px;
+    border: solid rgb(209, 176, 115);
+    width: 58px;
+    height: 58px;
+    grid-area: profile_img_posts;
+}
+
+.btn_menu_post{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    color: #FFC38A;
+    border: none;
+}
+
+.post_menu{
+    grid-area: post_menu;
+    position: relative;
+    display: inline-block;
+}
+
+.supp_post{
+    display: none;
+    position: absolute;
+    padding: 5px 5px;
+    color: #f1f1f1;
+    width: auto;
+    z-index: 1;
+}
+
+.post_menu:hover .supp_post {
+    display: block;
+}
+
+.post_auteur, .post_date{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.post_auteur{
+    color: white;
+    font-size: 20px;
+}
+
+.post_date{
+    color: lightgray;
+    font-size: 14px;
+}
+
+.post_content{
+    grid-area: post_content;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.post_content p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.btn_like{
+    display: grid;
+    grid-template-columns: 32px 32px;
+    grid-template-rows: auto;
+    -ms-grid-columns: 32px 32px;
+    -ms-grid-rows: auto;
+    grid-gap: 0px 0px;
+    gap: 0px 0px;
+    grid-template-areas:
+    "like_img like_num";
+    grid-area: btn_like;
+    background-color: transparent;
+    padding: 0 0;
+}
+
+.btn_report{
+    display: grid;
+    grid-template-columns: auto 32px;
+    grid-template-rows: auto;
+    -ms-grid-columns: auto 32px;
+    -ms-grid-rows: auto;
+    grid-gap: 0px 0px;
+    gap: 0px 0px;
+    grid-template-areas:
+    ". report_ref";
+    grid-area: btn_report;
+}
+
+/* Pour un bon affichage sur Internet Explorer */
+@media all and (-ms-high-contrast:none) {
+
+    .posts {
+        display: -ms-grid;
+        -ms-grid-columns: 64px auto 32px;
+        -ms-grid-rows: 64px auto 32px;
+        gap: 10px 20px;
+    }
+
+    .info_containt {
+        display: -ms-grid;
+        -ms-grid-columns: auto auto 32px;
+        -ms-grid-rows: auto;
+        gap: 0px 0px;
+    }
+
+    .btn_like {
+        display: -ms-grid;
+        -ms-grid-columns: 32px 32px;
+        -ms-grid-rows: auto;
+        gap: 0px 0px;
+    }
+
+    .btn_report {
+        display: -ms-grid;
+        -ms-grid-columns: auto 32px;
+        -ms-grid-rows: auto;
+        gap: 0px 0px;
+    }
+
+}
+
+.like_img {
+    grid-area: like_img;
+}
+
+.report_ref{
+    background-color: transparent;
+    padding: 0 0;
+    grid-area: report_ref;
+}
+
+.like_num{
+    grid-area: like_num;
+    color: white;
+    margin-left: 2px;
+    margin-top: 8px;
+    font-size: 17px;
+}

@@ -1,0 +1,86 @@
+#desc{
+    margin: 20px 20px 0;
+    color: white;
+    border-radius: 15px;
+}
+
+.img_btn_like{
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: auto;
+    -ms-grid-columns: 100px auto 100px;
+    -ms-grid-rows: auto;
+    grid-gap: 0px 20px;
+    gap: 0px 20px;
+    grid-template-areas:
+    "like img_profile dislike";
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.like{
+    grid-area: like;
+    margin-top: auto;
+    height: 30px;
+    background-color: mediumspringgreen;
+}
+
+.img_profile{
+    grid-area: img_profile;
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.dislike{
+    grid-area: dislike;
+    margin-top: auto;
+    height: 30px;
+    background-color: #fa001d;
+}
+
+.info_profile {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    -ms-grid-columns: auto auto auto auto;
+    -ms-grid-rows: auto;
+    grid-gap: 20px 20px;
+    gap: 20px 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    text-align: initial;
+    font-size: 16px;
+    color: white;
+    grid-template-areas:
+    "profile_nickname profile_espece profile_classe profile_titre";
+}
+
+/* Pour un bon affichage sur Internet Explorer */
+@media all and (-ms-high-contrast:none) {
+
+    .img_btn_like {
+        display: -ms-grid;
+        -ms-grid-columns: 100px auto 100px;
+        -ms-grid-rows: auto;
+        gap: 0px 20px;
+    }
+
+    .info_profile {
+        display: -ms-grid;
+        -ms-grid-columns: auto auto auto auto;
+        -ms-grid-rows: auto;
+        gap: 20px 20px;
+    }
+
+}
+
+.profile_nickname { grid-area: profile_nickname; }
+.profile_titre { grid-area: profile_titre; }
+.profile_espece { grid-area: profile_espece; }
+.profile_classe { grid-area: profile_classe; }
+.profile_nlikes { grid-area: profile_nlikes; }

@@ -1,0 +1,104 @@
+/* ------ REDEFINE -------- */
+
+#mid_sub_content {
+    text-align: center;
+
+    margin: 20px auto;
+
+    width: 80%;
+    min-width: 500px;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+    /*-------------------------------*/
+
+    border-radius: 5px;
+    background-color:rgb(59, 61, 63);
+    border: solid rgb(209, 176, 115);
+}
+
+.settings_title {
+    color: rgb(240, 237, 231) !important;
+    text-align: center;
+}
+
+.settings_title p{
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: .5em;
+    color: white !important; 
+    font-size: 24px;
+}
+
+/* -------------- */
+.input_title input[type=text], 
+.input_title input[type=password] {
+    width: 80%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 5px auto;
+}
+
+
+.input_title input[type=text]:focus, 
+.input_title input[type=password]:focus {
+    outline: none;
+    border: solid rgb(209, 176, 115);
+}
+
+/* ----------------- */
+
+.btn_valide {
+    padding: 10px 10px; 
+    width: auto; 
+    background-color: rgb(86, 187, 65);
+    border-radius: 7px;
+    border-style: none;
+}
+
+.btn_remove{
+    padding: 10px 10px; 
+    width: auto; 
+    background-color: #ca4940;
+    border-radius: 7px;
+    border-style: none;
+}
+
+/* ----------------- */
+
+.form_title{
+    font-size: 20px;
+    color: rgb(236, 232, 225);
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: black;
+}
+
+::-ms-input-placeholder {
+    color: black;
+}
+
+input[type=text]:focus{
+    outline: none;
+    border: solid rgb(209, 176, 115);
+}
+
+.btn_dell_acc, .btn_chg_pass{
+    padding: 10px 10px;
+    margin-top: 5px;
+}
+ 
